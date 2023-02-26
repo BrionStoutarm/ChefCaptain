@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ChefCaptain",
+			"Path": "D:\\Games\\ChefCaptain\\ChefCaptain\\ChefCaptain\\Source\\ChefCaptain.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChefCaptainEditor",
+			"Path": "D:\\Games\\ChefCaptain\\ChefCaptain\\ChefCaptain\\Source\\ChefCaptainEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Games\\ChefCaptain\\ChefCaptain\\ChefCaptain\\Source\\ChefCaptain\\ChefCaptain.Build.cs",
+		"D:\\Games\\ChefCaptain\\ChefCaptain\\ChefCaptain\\Source\\ChefCaptain.Target.cs",
+		"D:\\Games\\ChefCaptain\\ChefCaptain\\ChefCaptain\\Source\\ChefCaptainEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

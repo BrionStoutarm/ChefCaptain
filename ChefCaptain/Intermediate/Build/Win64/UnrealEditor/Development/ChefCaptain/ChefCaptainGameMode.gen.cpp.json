@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\inc\\chefcaptain\\chefcaptaingamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\chefcaptaineditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\development\\chefcaptain\\definitions.chefcaptain.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\source\\chefcaptain\\chefcaptaingamemode.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\inc\\chefcaptain\\chefcaptaingamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
