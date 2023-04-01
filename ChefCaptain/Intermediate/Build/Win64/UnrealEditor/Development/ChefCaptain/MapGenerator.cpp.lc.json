@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\source\\chefcaptain\\mapgenerator.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\chefcaptaineditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\development\\chefcaptain\\definitions.chefcaptain.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\source\\chefcaptain\\mapgenerator.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\source\\chefcaptain\\gridcell.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\inc\\chefcaptain\\gridcell.generated.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\string",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\inc\\chefcaptain\\mapgenerator.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

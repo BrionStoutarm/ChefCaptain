@@ -29,6 +29,12 @@
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
     <Filter Include="Source\ChefCaptain">
       <UniqueIdentifier>{655E9C2E-78A8-3F20-AD35-6267D0EB230A}</UniqueIdentifier>
     </Filter>
@@ -57,6 +63,36 @@
       <Filter>Source\ChefCaptain</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ChefCaptain\GridCell.h">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ChefCaptain\LightSwitchCodeOnly.cpp">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ChefCaptain\LightSwitchCodeOnly.h">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ChefCaptain\MapGenerator.cpp">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ChefCaptain\MapGenerator.h">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ChefCaptain\MyTestLevel.cpp">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ChefCaptain\MyTestLevel.h">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ChefCaptain\MyTestPawn.cpp">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ChefCaptain\MyTestPawn.h">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ChefCaptain\NewActorComponent.cpp">
+      <Filter>Source\ChefCaptain</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ChefCaptain\NewActorComponent.h">
       <Filter>Source\ChefCaptain</Filter>
     </ClInclude>
   </ItemGroup>

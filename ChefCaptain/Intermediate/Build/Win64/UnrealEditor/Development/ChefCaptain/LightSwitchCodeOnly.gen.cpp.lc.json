@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\inc\\chefcaptain\\lightswitchcodeonly.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\chefcaptaineditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\development\\chefcaptain\\definitions.chefcaptain.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\source\\chefcaptain\\lightswitchcodeonly.h",
+            "d:\\games\\chefcaptain\\chefcaptain\\chefcaptain\\intermediate\\build\\win64\\unrealeditor\\inc\\chefcaptain\\lightswitchcodeonly.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

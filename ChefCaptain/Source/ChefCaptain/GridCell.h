@@ -10,7 +10,7 @@ UCLASS()
 class CHEFCAPTAIN_API AGridCell : public AActor
 {
 	GENERATED_BODY()
-	
+
 public:	
 	// Sets default values for this actor's properties
 	AGridCell();
@@ -18,6 +18,9 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	//might make virtual later (i.e. subclassing special grid cells)
+	void GetStaticMesh();
 
 public:	
 	// Called every frame
