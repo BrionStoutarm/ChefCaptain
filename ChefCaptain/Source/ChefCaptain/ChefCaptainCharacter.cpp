@@ -30,8 +30,6 @@ AChefCaptainCharacter::AChefCaptainCharacter()
 
 	// Note: For faster iteration times these variables, and many more, can be tweaked in the Character Blueprint
 	// instead of recompiling to adjust them
-	GetCharacterMovement()->JumpZVelocity = 700.f;
-	GetCharacterMovement()->AirControl = 0.35f;
 	GetCharacterMovement()->MaxWalkSpeed = 500.f;
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
@@ -40,7 +38,7 @@ AChefCaptainCharacter::AChefCaptainCharacter()
 	// Create a camera boom (pulls in towards the player if there is a collision)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 400.0f; // The camera follows at this distance behind the character	
+	CameraBoom->TargetArmLength = 4000.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
 
 	// Create a follow camera
@@ -59,9 +57,6 @@ void AChefCaptainCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
-
 	PlayerInputComponent->BindAxis("Move Forward / Backward", this, &AChefCaptainCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("Move Right / Left", this, &AChefCaptainCharacter::MoveRight);
 
@@ -73,19 +68,10 @@ void AChefCaptainCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAxis("Look Up / Down Mouse", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Look Up / Down Gamepad", this, &AChefCaptainCharacter::LookUpAtRate);
 
+
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AChefCaptainCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &AChefCaptainCharacter::TouchStopped);
-}
-
-void AChefCaptainCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
-{
-	Jump();
-}
-
-void AChefCaptainCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
-{
-	StopJumping();
 }
 
 void AChefCaptainCharacter::TurnAtRate(float Rate)
